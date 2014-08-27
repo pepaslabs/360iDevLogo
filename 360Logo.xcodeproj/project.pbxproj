@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FDB0B56FC4B4E90887898D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A141864FCF44772B2FF3D9A /* libPods.a */; };
+		5BB5152A19AD3A8800B8B8A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5152919AD3A8800B8B8A3 /* main.m */; };
+		5BB5152D19AD3A8800B8B8A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5152C19AD3A8800B8B8A3 /* AppDelegate.m */; };
+		5BB5153019AD3A8800B8B8A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5152F19AD3A8800B8B8A3 /* ViewController.m */; };
+		5BB5153319AD3A8800B8B8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB5153119AD3A8800B8B8A3 /* Main.storyboard */; };
+		5BB5153519AD3A8800B8B8A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB5153419AD3A8800B8B8A3 /* Images.xcassets */; };
+		5BB5154119AD3A8800B8B8A3 /* _60LogoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5154019AD3A8800B8B8A3 /* _60LogoTests.m */; };
+		5BB5154C19AD3CC500B8B8A3 /* RingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5154B19AD3CC500B8B8A3 /* RingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB5153B19AD3A8800B8B8A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB5151C19AD3A8800B8B8A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB5152319AD3A8800B8B8A3;
+			remoteInfo = 360Logo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A141864FCF44772B2FF3D9A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB5152419AD3A8800B8B8A3 /* 360Logo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360Logo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB5152819AD3A8800B8B8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB5152919AD3A8800B8B8A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BB5152B19AD3A8800B8B8A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BB5152C19AD3A8800B8B8A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BB5152E19AD3A8800B8B8A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BB5152F19AD3A8800B8B8A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BB5153219AD3A8800B8B8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BB5153419AD3A8800B8B8A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BB5153A19AD3A8800B8B8A3 /* 360LogoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 360LogoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB5153F19AD3A8800B8B8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB5154019AD3A8800B8B8A3 /* _60LogoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _60LogoTests.m; sourceTree = "<group>"; };
+		5BB5154A19AD3CC500B8B8A3 /* RingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingView.h; sourceTree = "<group>"; };
+		5BB5154B19AD3CC500B8B8A3 /* RingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingView.m; sourceTree = "<group>"; };
+		9D0A3A77851C4554A407A39E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB5152119AD3A8800B8B8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDB0B56FC4B4E90887898D3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5153719AD3A8800B8B8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB5151B19AD3A8800B8B8A3 = {
+			isa = PBXGroup;
+			children = (
+				5BB5152619AD3A8800B8B8A3 /* 360Logo */,
+				5BB5153D19AD3A8800B8B8A3 /* 360LogoTests */,
+				5BB5152519AD3A8800B8B8A3 /* Products */,
+				9D0A3A77851C4554A407A39E /* Pods.xcconfig */,
+				C48B4311D95F400FBE50A9B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB5152519AD3A8800B8B8A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5152419AD3A8800B8B8A3 /* 360Logo.app */,
+				5BB5153A19AD3A8800B8B8A3 /* 360LogoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB5152619AD3A8800B8B8A3 /* 360Logo */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5152B19AD3A8800B8B8A3 /* AppDelegate.h */,
+				5BB5152C19AD3A8800B8B8A3 /* AppDelegate.m */,
+				5BB5152E19AD3A8800B8B8A3 /* ViewController.h */,
+				5BB5152F19AD3A8800B8B8A3 /* ViewController.m */,
+				5BB5154A19AD3CC500B8B8A3 /* RingView.h */,
+				5BB5154B19AD3CC500B8B8A3 /* RingView.m */,
+				5BB5153119AD3A8800B8B8A3 /* Main.storyboard */,
+				5BB5153419AD3A8800B8B8A3 /* Images.xcassets */,
+				5BB5152719AD3A8800B8B8A3 /* Supporting Files */,
+			);
+			path = 360Logo;
+			sourceTree = "<group>";
+		};
+		5BB5152719AD3A8800B8B8A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5152819AD3A8800B8B8A3 /* Info.plist */,
+				5BB5152919AD3A8800B8B8A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB5153D19AD3A8800B8B8A3 /* 360LogoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5154019AD3A8800B8B8A3 /* _60LogoTests.m */,
+				5BB5153E19AD3A8800B8B8A3 /* Supporting Files */,
+			);
+			path = 360LogoTests;
+			sourceTree = "<group>";
+		};
+		5BB5153E19AD3A8800B8B8A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5153F19AD3A8800B8B8A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C48B4311D95F400FBE50A9B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A141864FCF44772B2FF3D9A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB5152319AD3A8800B8B8A3 /* 360Logo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB5154419AD3A8800B8B8A3 /* Build configuration list for PBXNativeTarget "360Logo" */;
+			buildPhases = (
+				F168F628093F4399AF2EC3E7 /* Check Pods Manifest.lock */,
+				5BB5152019AD3A8800B8B8A3 /* Sources */,
+				5BB5152119AD3A8800B8B8A3 /* Frameworks */,
+				5BB5152219AD3A8800B8B8A3 /* Resources */,
+				F91E9A2E2DBE4F33B71D3D33 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 360Logo;
+			productName = 360Logo;
+			productReference = 5BB5152419AD3A8800B8B8A3 /* 360Logo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BB5153919AD3A8800B8B8A3 /* 360LogoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB5154719AD3A8800B8B8A3 /* Build configuration list for PBXNativeTarget "360LogoTests" */;
+			buildPhases = (
+				5BB5153619AD3A8800B8B8A3 /* Sources */,
+				5BB5153719AD3A8800B8B8A3 /* Frameworks */,
+				5BB5153819AD3A8800B8B8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB5153C19AD3A8800B8B8A3 /* PBXTargetDependency */,
+			);
+			name = 360LogoTests;
+			productName = 360LogoTests;
+			productReference = 5BB5153A19AD3A8800B8B8A3 /* 360LogoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB5151C19AD3A8800B8B8A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jason Pepas";
+				TargetAttributes = {
+					5BB5152319AD3A8800B8B8A3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5BB5153919AD3A8800B8B8A3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5BB5152319AD3A8800B8B8A3;
+					};
+				};
+			};
+			buildConfigurationList = 5BB5151F19AD3A8800B8B8A3 /* Build configuration list for PBXProject "360Logo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BB5151B19AD3A8800B8B8A3;
+			productRefGroup = 5BB5152519AD3A8800B8B8A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB5152319AD3A8800B8B8A3 /* 360Logo */,
+				5BB5153919AD3A8800B8B8A3 /* 360LogoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB5152219AD3A8800B8B8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB5153319AD3A8800B8B8A3 /* Main.storyboard in Resources */,
+				5BB5153519AD3A8800B8B8A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5153819AD3A8800B8B8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F168F628093F4399AF2EC3E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F91E9A2E2DBE4F33B71D3D33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB5152019AD3A8800B8B8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB5154C19AD3CC500B8B8A3 /* RingView.m in Sources */,
+				5BB5153019AD3A8800B8B8A3 /* ViewController.m in Sources */,
+				5BB5152D19AD3A8800B8B8A3 /* AppDelegate.m in Sources */,
+				5BB5152A19AD3A8800B8B8A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB5153619AD3A8800B8B8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB5154119AD3A8800B8B8A3 /* _60LogoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB5153C19AD3A8800B8B8A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB5152319AD3A8800B8B8A3 /* 360Logo */;
+			targetProxy = 5BB5153B19AD3A8800B8B8A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BB5153119AD3A8800B8B8A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB5153219AD3A8800B8B8A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BB5154219AD3A8800B8B8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BB5154319AD3A8800B8B8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB5154519AD3A8800B8B8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0A3A77851C4554A407A39E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = 360Logo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BB5154619AD3A8800B8B8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0A3A77851C4554A407A39E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = 360Logo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BB5154819AD3A8800B8B8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 360LogoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360Logo.app/360Logo";
+			};
+			name = Debug;
+		};
+		5BB5154919AD3A8800B8B8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 360LogoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360Logo.app/360Logo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB5151F19AD3A8800B8B8A3 /* Build configuration list for PBXProject "360Logo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5154219AD3A8800B8B8A3 /* Debug */,
+				5BB5154319AD3A8800B8B8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB5154419AD3A8800B8B8A3 /* Build configuration list for PBXNativeTarget "360Logo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5154519AD3A8800B8B8A3 /* Debug */,
+				5BB5154619AD3A8800B8B8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB5154719AD3A8800B8B8A3 /* Build configuration list for PBXNativeTarget "360LogoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5154819AD3A8800B8B8A3 /* Debug */,
+				5BB5154919AD3A8800B8B8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB5151C19AD3A8800B8B8A3 /* Project object */;
+}
